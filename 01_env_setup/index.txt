@@ -1,0 +1,34 @@
+WHAT DO WE NEED?
+    server (Apache)
+    database (MySQL, MariaDB)
+    programming language (php)
+
+WHAT IS XAMPP SERVER?
+    XAMPP is an acronym that stands for (X)Cross-platform, (A)Apache, (M)MariaDB/MySQL, (P)PHP, and (P)Perl.
+
+
+XAMPP SERVER SETUP:
+    go to https://www.apachefriends.org/
+    select XAMPP for your_os (in my case it is XAMPP for mac X)
+    your download will start automatically
+
+INSTALL XAMPP SERVER:
+    select only mysql, myphpadmin and php
+
+START AFTER INSTALLATION:
+    start: apache, and mysql (it will turn green if everything good, otherwise red)
+
+DOWNLOAD VS CODE (OUR CODE EDITOR):
+    you can download it from here https://code.visualstudio.com/
+
+SETUP VS CODE:
+    create new folder in xampp folder htdocs, name it website
+    after creating .php file u'll get installation could not found error in vscode:
+    open settings -> php.validate.executablepath
+    find that path in mac: applications/xamp/xampfiles/etc/php.ini
+    paste it over there
+
+VS CODE EXTENSION:
+    php intelephense
+    live server
+    php server
