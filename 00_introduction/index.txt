@@ -1,22 +1,22 @@
-What You Should Already Know?
+WHAT YOU SHOULD ALREADY KNOW?
     Before you continue you should have a basic understanding of the following:
 
         HTML
         CSS
         JavaScript
 
-What is PHP?
+WHAT IS PHP?
     PHP is an acronym for "PHP: Hypertext Preprocessor"
     PHP is a widely-used, open source scripting language
     PHP scripts are executed on the server (server side language)
     PHP is free to download and use
 
-What is a PHP File?
+WHAT IS A PHP FILE?
     PHP files can contain text, HTML, CSS, JavaScript, and PHP code
     PHP code is executed on the server, and the result is returned to the browser as plain HTML
     PHP files have extension ".php"
 
-What Can PHP Do?
+WHAT CAN PHP DO?
     PHP can generate dynamic page content
     PHP can create, open, read, write, delete, and close files on the server
     PHP can collect form data
@@ -26,7 +26,7 @@ What Can PHP Do?
     PHP can encrypt data
     With PHP you are not limited to output HTML. You can output images or PDF files. You can also output any text, such as XHTML and XML.
 
-Why PHP?
+WHY PHP?
     PHP runs on various platforms (Windows, Linux, Unix, Mac OS X, etc.)
     PHP is compatible with almost all servers used today (Apache, IIS, etc.)
     PHP supports a wide range of databases
