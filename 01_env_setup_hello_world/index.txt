@@ -22,7 +22,7 @@ DOWNLOAD VS CODE (OUR CODE EDITOR):
     you can download it from here https://code.visualstudio.com/
 
 SETUP VS CODE:
-    create new folder in xampp folder htdocs, name it website
+    create new folder in xampp folder htdocs, name it website (name it whatever you like)
     after creating .php file u could get installation could not found error in vscode:
     open settings -> php.validate.executablepath
     find that path in mac: applications/xamp/xampfiles/etc/php.ini
