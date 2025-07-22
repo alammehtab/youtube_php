@@ -17,18 +17,3 @@ INSTALL XAMPP SERVER:
 
 START AFTER INSTALLATION:
     start: apache, and mysql (it will turn green if everything good, otherwise red)
-
-DOWNLOAD VS CODE (OUR CODE EDITOR):
-    you can download it from here https://code.visualstudio.com/
-
-SETUP VS CODE:
-    create new folder in xampp folder htdocs, name it website
-    after creating .php file u'll get installation could not found error in vscode:
-    open settings -> php.validate.executablepath
-    find that path in mac: applications/xamp/xampfiles/etc/php.ini
-    paste it over there
-
-VS CODE EXTENSION:
-    php intelephense
-    live server
-    php server
