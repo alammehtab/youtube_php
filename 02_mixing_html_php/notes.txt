@@ -1,0 +1,37 @@
+Mixing HTML and PHP in a Script
+    
+    PHP allows you to write both HTML and PHP code within the same file. This means that you can create a webpage in HTML and then add dynamic content with PHP. By combining HTML with PHP, you can create dynamic web pages that respond to user input or database content.
+
+    CODE:
+        <!DOCTYPE html>
+        <html>
+        <body>
+            <h1>My PHP Website</h1>
+            <?php
+                echo "Hello World!";
+            ?>
+        </body>
+        </html>
+
+    EXPLANATION:
+        The "Hello World" message will be rendered as a plain text. However, you can put HTML tags inside the "Hello World" string. The browser will interpret the tags accordingly.
+
+    In the following code, the "echo" statement renders "Hello World" so that it is in <h1> heading with the text aligned at the center of the page.
+
+    CODE:
+        <?php
+            echo "<h1 align='center'>Hello World!</h1>";
+        ?>
+
+PHP Script from Command Prompt
+
+    You can run your PHP script from the command prompt. Let's assume you have the following content in your "hello.php" file.
+
+    CODE:
+        <?php
+            echo "Hello PHP!!!!!";
+        ?>
+    
+    HOW TO EXECUTE?
+        Open integrated terminal in VS Code.
+        type php nameOfTheFile and hit return/enter
